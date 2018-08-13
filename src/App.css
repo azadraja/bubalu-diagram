@@ -1,0 +1,55 @@
+.diagramComponentContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+
+.eachNode{
+  border: 1px solid #c7c4c4;
+  border-radius: 6px;
+  padding: 5px;
+  display: flex;
+ align-items: center; 
+ cursor: pointer;
+ flex: 1;
+}
+
+.eachNode:hover{
+  background: #98e2e7;
+}
+
+.startNode{
+  background: url('./assets/mail.svg');
+  height: 50px;
+  width: 50px;
+  background-position: center center;
+  background-size: contain;
+}
+
+.endNode{
+  border: 1px solid red;
+  border-radius: 15px;
+  height: 15px;
+  width: 15px;
+  background: salmon;
+}
+
+.rightArrow{
+  background: url('./assets/arrow-right.png');
+  height: 50px;
+  width: 100px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.insideContainer{
+  display: flex;
+}
+
+.endNodeContainer{
+  display: flex;
+  align-items: center;
+}
